@@ -2,7 +2,7 @@ import React from 'react'
 import '../App.css'
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 
-import Home from '../screens//Home'
+import Home from '../screens/Home'
 import GalleryPagenine from '../screens/GaleryP19'
 import GalleryPagezero from '../screens/GaleryP20'
 import GalleryPageone from '../screens/GaleryP21'
@@ -11,7 +11,7 @@ import GalleryPagetree from '../screens/GaleryP23'
 import GalleryPagefour from '../screens/GaleryP24'
 import GalleryPagefive from '../screens/GaleryP25'
 import GalleryPagesix from '../screens/GaleryP26'
-import GalleryPage from '../screens/GaleryPage'
+import GalleryPage from '../screens/GaleryP27'
 
 function App() {
   return (
@@ -21,7 +21,7 @@ function App() {
         <Route path="/" element={<Home />} />
 
         {/* Rota para a Página da Galeria */}
-        <Route path="/gallery" element={<GalleryPage />} />
+        <Route path="/gallery/27" element={<GalleryPage />} />
         <Route path="/gallery/19" element={<GalleryPagenine />} />
         <Route path="/gallery/20" element={<GalleryPagezero />} />
         <Route path="/gallery/21" element={<GalleryPageone />} />
