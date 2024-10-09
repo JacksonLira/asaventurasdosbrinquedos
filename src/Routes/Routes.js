@@ -11,7 +11,7 @@ import GalleryPagetree from '../screens/GaleryP23'
 import GalleryPagefour from '../screens/GaleryP24'
 import GalleryPagefive from '../screens/GaleryP25'
 import GalleryPagesix from '../screens/GaleryP26'
-import GalleryPage from '../screens/GaleryPage'
+import GalleryPage from '../screens/GaleryP27'
 
 function App() {
   return (
@@ -19,9 +19,8 @@ function App() {
       <Routes>
         {/* Rota para a Página Inicial */}
         <Route path="/" element={<Home />} />
-
         {/* Rota para a Página da Galeria */}
-        <Route path="/gallery" element={<GalleryPage />} />
+        <Route path="/gallery27" element={<GalleryPage />} />
         <Route path="/gallery/19" element={<GalleryPagenine />} />
         <Route path="/gallery/20" element={<GalleryPagezero />} />
         <Route path="/gallery/21" element={<GalleryPageone />} />
